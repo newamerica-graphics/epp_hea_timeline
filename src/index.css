@@ -1,0 +1,11 @@
+@import "~@newamerica/timeline/dist/styles.css";
+@import "~@newamerica/meta/dist/styles.css";
+.dv-TimelineControl-container:after,
+.dv-TimelineControl-container:before,
+.dv-Timeline__content-sources {
+  display: none !important;
+}
+
+.dv-Timeline__content-tag {
+  width: max-content;
+}

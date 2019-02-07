@@ -21,7 +21,7 @@ module.exports = env => {
       env.deploy === "development" && new webpack.HotModuleReplacementPlugin(),
       new HtmlWebpackPlugin({
         title: "",
-        chartIDs: [],
+        chartIDs: ["timeline"],
         inject: false,
         template: path.resolve(__dirname, "src/index.html")
       }),
